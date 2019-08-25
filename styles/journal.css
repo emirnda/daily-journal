@@ -1,0 +1,31 @@
+
+
+body {
+   display: flex;
+   flex-direction: column;
+   width: 55%;
+
+}
+
+label {
+    display: block; 
+}
+
+textarea,  input[type=text], input[type=date], 
+select, button {
+    border:solid 1px black;
+}
+   
+    
+    
+   
+
+
+
+
+
+
+
+
+
+

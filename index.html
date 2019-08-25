@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/journal.css">
+    <title>Daily Journal</title>
+</head>
+
+<body>
+    <!--create the drop down calendar--> 
+    <form action="">
+        <fieldset>
+            <label for="journalDate"><strong>Date Of Entry</strong></label>
+            <input type="date" name= "journalDate" id: Journal Date>
+        </fieldset>
+    </form>
+
+    <!--Create text input box for Concepts Covered-->
+    <form>
+        <fieldset>
+          <label for="conceptsCovered"><strong>Concepts Covered</strong></label>
+          <input type="text" name= "conceptsCovered" id: Concepts Covered>
+    </fieldset>
+    </form>
+
+    <!--Create text input box for journal Entry-->
+    <form>
+         <fieldset>
+            <label for="journalEntry"><strong>Journal Entry</strong></label>
+             <textarea name="journalEntry" rows="4" cols="30">
+              <input type="text" name= "journalEntry" id: Journal Entry>
+            </textarea>
+        </fieldset>
+        </form>
+            
+
+    <!--create drop down with two options-->
+    <form action="">
+            <fieldset>
+                <label for="moodForTheDay"><strong>Mood For The Day</strong></label>
+                <select>
+                    <option value="happy">Happy</option>
+                     <option value="sad">Sad</option>
+                    </select>
+             </fieldset>
+        </form>
+        
+    <!--create button Record Journal Entry to submit entries-->
+    <form action="">
+        <button type="button"><strong>Record Journal Entry</strong></button>
+        </form>
+        
+</body>
+</html>
